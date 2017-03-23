@@ -14,10 +14,10 @@ import org.antlr.runtime.ANTLRInputStream;
 import org.antlr.runtime.CommonTokenStream;
 import org.antlr.runtime.RecognitionException;
 
-import com.github.bveijkelenburg.oberon.parser.Oberon0Lexer;
-import com.github.bveijkelenburg.oberon.parser.Oberon0Parser;
 import com.github.bveijkelenburg.oberon0.interpreter.ast.IExecutableNode;
 import com.github.bveijkelenburg.oberon0.interpreter.env.Environment;
+import com.github.bveijkelenburg.oberon0.interpreter.parser.Oberon0Lexer;
+import com.github.bveijkelenburg.oberon0.interpreter.parser.Oberon0Parser;
 
 public class App {
 	private static final String LOCATION_TESTAPPS = "oberon0_samples";
