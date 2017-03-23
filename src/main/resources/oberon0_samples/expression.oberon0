@@ -1,0 +1,12 @@
+MODULE QuickSort;
+
+CONST
+  INPUTLENGTH = 5;
+
+VAR
+  i, j: INTEGER;
+
+BEGIN
+  i := (4 - 1);
+  Write(i)
+END QuickSort.

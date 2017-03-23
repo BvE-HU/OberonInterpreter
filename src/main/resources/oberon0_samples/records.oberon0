@@ -1,0 +1,28 @@
+MODULE QuickSort;
+
+CONST
+  INPUTLENGTH = 5;
+
+VAR
+  input: ARRAY INPUTLENGTH OF INTEGER;
+  i: INTEGER;
+  testRec: RECORD
+    value : INTEGER;
+    next  : ARRAY INPUTLENGTH OF INTEGER
+  END;
+
+BEGIN
+ i := 0;
+ testRec.value := 24;
+ testRec.next[0] := 13;
+ i := 0;
+ Write(testRec.value);
+ WriteLn;
+ Write(testRec.next[0]);
+ WriteLn;
+ WHILE i < INPUTLENGTH DO
+   Write(input[i]);
+   WriteLn;
+   i := i + 1
+ END
+END QuickSort.
