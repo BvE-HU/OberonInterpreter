@@ -17,20 +17,20 @@ tokens {
 }
 
 @header {
-package com.github.bveijkelenburg.oberon.parser;
+package com.github.bveijkelenburg.oberon0.interpreter.parser;
 
-import com.github.bveijkelenburg.oberon.ast.*;
-import com.github.bveijkelenburg.oberon.ast.declarations.*;
-import com.github.bveijkelenburg.oberon.ast.expressions.*;
-import com.github.bveijkelenburg.oberon.ast.expressions.binary.*;
-import com.github.bveijkelenburg.oberon.ast.selectors.*;
-import com.github.bveijkelenburg.oberon.ast.statements.*;
-import com.github.bveijkelenburg.oberon.ast.types.*;
-import com.github.bveijkelenburg.oberon.shared.*;
+import com.github.bveijkelenburg.oberon0.interpreter.ast.*;
+import com.github.bveijkelenburg.oberon0.interpreter.ast.declarations.*;
+import com.github.bveijkelenburg.oberon0.interpreter.ast.expressions.*;
+import com.github.bveijkelenburg.oberon0.interpreter.ast.expressions.binary.*;
+import com.github.bveijkelenburg.oberon0.interpreter.ast.selectors.*;
+import com.github.bveijkelenburg.oberon0.interpreter.ast.statements.*;
+import com.github.bveijkelenburg.oberon0.interpreter.ast.types.*;
+import com.github.bveijkelenburg.oberon0.interpreter.shared.*;
 }
 
 @lexer::header {
-package com.github.bveijkelenburg.oberon.parser;
+package com.github.bveijkelenburg.oberon0.interpreter.parser;
 }
 
 /*------------------------------------------------------------------
