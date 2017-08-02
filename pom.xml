@@ -26,7 +26,7 @@
 		<dependency>
 			<groupId>org.antlr</groupId>
 			<artifactId>antlr3-maven-plugin</artifactId>
-			<version>3.3</version>
+			<version>3.5.2</version>
 		</dependency>
 	</dependencies>
 
@@ -35,7 +35,7 @@
 			<plugin>
 				<groupId>org.antlr</groupId>
 				<artifactId>antlr3-maven-plugin</artifactId>
-				<version>3.3</version>
+				<version>3.5.2</version>
 				<executions>
 					<execution>
 						<id>antlr</id>
@@ -50,7 +50,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>com.github.bveijkelenburg.oberon.App</mainClass>
+							<mainClass>com.github.bveijkelenburg.oberon0.interpreter.App</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>
